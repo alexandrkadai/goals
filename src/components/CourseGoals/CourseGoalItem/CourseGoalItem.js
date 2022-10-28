@@ -2,11 +2,11 @@ import React from 'react';
 
 import './CourseGoalItem.css';
 
-const CourseGoalItem = props => {
-  // const [deleteText, setDeleteText] = useState('');
+const CourseGoalItem = (props) => {
+  // const [deleteText, setDeleteText] = useState(''); 123
 
   const deleteHandler = () => {
-    // setDeleteText('(Deleted!)');
+    // setDeleteText('(Deleted!)'); 123
     props.onDelete(props.id);
   };
 
